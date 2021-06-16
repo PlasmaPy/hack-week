@@ -20,8 +20,6 @@ dependencies:
   - tofu
   - omas
   - xbout
-  - hypnotoad
-  - zoidberg
   - pip:
     - turbopy
     - freegs
