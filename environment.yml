@@ -2,6 +2,7 @@ name: hackweek
 channels:
   - conda-forge
   - defaults
+  - omfit
 dependencies:
   - python=3.9
   - jupyter
@@ -20,6 +21,8 @@ dependencies:
   - tofu
   - omas
   - xbout
+  - omfit-opt-deps
+  - omfit_classes
   - pip:
     - turbopy
     - freegs
