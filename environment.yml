@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
   - omfit
+  - aaronkho
 dependencies:
   - python=3.9
   - jupyter
