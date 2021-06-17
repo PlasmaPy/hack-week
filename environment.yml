@@ -13,7 +13,6 @@ dependencies:
   - pandas=1.2
   - xarray=0.18
   - astropy=4.2
-  - sunpy=3.0
   - plasmapy=0.6
   - pytest=6.2
   - hypothesis=6.14
