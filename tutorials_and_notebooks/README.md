@@ -1,6 +1,6 @@
 # Tutorials & Notebooks
 
-This directory contains slides and notebooks associated with the presentations
+This directory contains slides and Jupyter notebooks associated with the presentations
 given during the 2021 Hack Week and the material discussed during the Hack
 sessions.
 
