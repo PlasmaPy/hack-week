@@ -25,4 +25,4 @@ dependencies:
     - turbopy
     - freegs
     - bapsflib
-    - divHretention=0.1
+    - divHretention>=0.1
