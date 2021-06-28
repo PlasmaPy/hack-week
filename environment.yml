@@ -20,6 +20,7 @@ dependencies:
   - tofu
   - omas
   - xbout
+  - aurorafusion
   - pip:
     - turbopy
     - freegs
