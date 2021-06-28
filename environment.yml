@@ -17,6 +17,7 @@ dependencies:
   - hypothesis=6.14
   - h5py=3.2
   - pip=21.1
+  - divHretention=0.1
   - tofu
   - omas
   - xbout
