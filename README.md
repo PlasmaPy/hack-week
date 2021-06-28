@@ -8,3 +8,13 @@ environment with open source packages that are likely to be used
 during [Plasma Hack Week](https://hack.plasmapy.org/) from
 June 28 – July 2, 2021.  Click on the above link to access the
 environment.
+
+
+## Using binder
+
+After clicking on the binder link above, you will be taken to an
+environment with much of the software that is necessary for the Hack
+Week.  The environment may take a few minutes to initialize.  Once it is
+created, you can get to a Jupyter notebook by clicking on the "New"
+button and selecting "Python 3".  From there, you can import PlasmaPy by
+typing `import plasmapy`.
