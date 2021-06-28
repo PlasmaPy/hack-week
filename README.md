@@ -1,6 +1,6 @@
 # Plasma Hack Week environment
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-environment-2021/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week-2021/HEAD)
 
 This repository is used to create a
 [binder](https://binder.readthedocs.io/en/latest/)
