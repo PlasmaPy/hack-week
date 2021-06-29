@@ -2,11 +2,16 @@
 Contributing to an Open Source Project
 ======================================
 
+This doc describes the workflow for making a contribution to PlasmaPy
+using `git` via a command line interface (such as a Unix shell).  These
+steps can also be done using an integrated development environment like
+`PyCharm <https://www.jetbrains.com/pycharm/>`_.
+
 Beforehand
 ==========
 
-1. `Create a GitHub account <https://github.com/join>`_:
-2. `Install git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_
+1. `Create a GitHub account <https://github.com/join>`_.
+2. `Install git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_.
 3. Do the first-time git setup and set your name and email.
 
    .. code-block:: shell
@@ -33,8 +38,8 @@ Getting started
        git clone https://github.com/PlasmaPy/PlasmaPy.git
 
    This will create a directory called ``PlasmaPy`` subdirectory inside
-   the directory you were already in
-7. Add a remote for PlasmaPy's main repository
+   the directory you were already in.
+7. Add a remote for PlasmaPy's main repository.
 
    .. code-block:: shell
 
