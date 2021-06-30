@@ -21,6 +21,7 @@ dependencies:
   - omas
   - xbout
   - aurorafusion
+  - astroquery
   - pip:
     - turbopy
     - freegs
