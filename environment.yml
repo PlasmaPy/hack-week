@@ -22,7 +22,6 @@ dependencies:
   - xbout
   - aurorafusion
   - astroquery
-  - gcc
   - pip:
     - turbopy
     - freegs
