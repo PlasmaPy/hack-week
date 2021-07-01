@@ -6,3 +6,4 @@ manpages
 man-db
 manpages-posix
 git
+gcc
