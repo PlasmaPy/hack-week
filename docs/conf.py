@@ -306,7 +306,7 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_logo = "./_static/with-text-light-190px.png"
+html_logo = "./_static/hack_logo(v7)_light_50px.png"
 html_theme_options = {
     "logo_only": True,
     #
