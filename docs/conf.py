@@ -46,6 +46,7 @@ extensions = [
     "hoverxref.extension",
     "notfound.extension",
     "sphinx_issues",
+    "plasmapy_sphinx",
 ]
 
 # Configure sphinxcontrib-bibtex
