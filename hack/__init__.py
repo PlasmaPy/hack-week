@@ -32,7 +32,7 @@ try:
     #       frozen to the version at time of install.
     #
     #: PlasmaPy version string
-    __version__ = pkg_resources.get_distribution("plasmapy").version
+    __version__ = pkg_resources.get_distribution("hack").version
 except pkg_resources.DistributionNotFound:
     # package is not installed
     fallback_version = "unknown"
@@ -55,7 +55,7 @@ except pkg_resources.DistributionNotFound:
         from warnings import warn
 
         warn(
-            f"plasmapy.__version__ not generated (set to 'unknown'), PlasmaPy is "
+            f"hack.__version__ not generated (set to 'unknown'), hack is "
             f"not an installed package and {warn_add}.",
             RuntimeWarning,
         )
