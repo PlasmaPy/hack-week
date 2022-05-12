@@ -25,17 +25,10 @@ Plasma Hack Week Documentation
 
    Formulary <formulary/index>
 
-
 .. toctree::
    :maxdepth: 1
    :caption: All the Rest
 
-   about/credits
+   credits
    bibliography
    glossary
-
-.. The about PlasmaPy section has some important information that would
-   be helpful to have more readily accessible from the main doc index
-   page.
-
-.. TODO: Add feedback link: .. _feedback@plasmapy.org: mailto:feedback@plasmapy.org
