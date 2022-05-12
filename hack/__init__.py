@@ -2,10 +2,10 @@
 Welcome to the PlasmaPy `hack` package, an open source Python package
 for plasma physics developed by the participants of the 2022 Plasma
 Hack Week (https://hack.plasmapy.org/2022/about/).
-"""
-# Documentation is available in the docstrings
-# and online at https://docs.plasmapy.org.
 
+Documentation is available in the docstrings and online at
+https://hack-week.readthedocs.io/.
+"""
 __all__ = ["__version__"]
 
 # Enforce Python version check during package import.
