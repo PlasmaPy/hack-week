@@ -59,6 +59,10 @@ On Day 1 we will give a brief overview of each IDE.
 
 ### [Installing `plasmapy`](https://docs.plasmapy.org/en/stable/install.html)
 
+For the Hack Week we will be using `v0.8.1` of `plasmapy`.  This can be
+installed using `pip` or `conda`, depending on your workflow.  For full
+[installation instructions](https://docs.plasmapy.org/en/stable/install.html)
+see PlasmaPy's documentation.
 
 ## Getting Yourself Setup for the Hack Week
 
