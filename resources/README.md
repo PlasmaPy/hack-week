@@ -44,7 +44,7 @@ Anaconda are not restricted to just Python packages.
 
 Anaconda has its own package installer called `conda`, similar to PyPI's
 installer `pip`.  Unlike `pip`, `conda` also has built-in functionality
-for managing virtual environments.  For a more detailed write look
+for managing virtual environments.  For more detailed information, look
 to Anaconda's
 ["Understanding Conda and Pip"](https://www.anaconda.com/blog/understanding-conda-and-pip)
 primer.
