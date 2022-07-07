@@ -1,6 +1,7 @@
 [Anaconda]: https://www.anaconda.com
 [Anaconda Navigator]: https://docs.anaconda.com/anaconda/navigator/
 [git-installation]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[GitHub]: https://www.github.com
 [plasmapy-installation]: https://docs.plasmapy.org/en/stable/install.html
 [PyCharm]: https://www.jetbrains.com/pycharm/
 [python-download]: https://www.python.org/downloads/
@@ -77,6 +78,15 @@ For the Hack Week we will be using `v0.8.1` of `plasmapy`.  This can be
 installed using `pip` or `conda`, depending on your workflow.  For full
 [installation instructions][plasmapy-installation]
 see PlasmaPy's documentation.
+
+### Sign Up for GitHub
+
+[GitHub] is a code hosting platform for version control and collaboration.
+[GitHub] is where we will combine all of collaborative work during the
+Hack Week to create the `hack` package.  There are two types of GitHub
+accounts, a personal account and an organization account.  All you
+need to do is 
+[create a free personal account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 ## Getting Yourself Setup for the Hack Week
 
