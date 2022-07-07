@@ -57,7 +57,7 @@ used are:
 
 On Day 1 we will give a brief overview of each IDE.
 
-### [Installing `plamsapy`](https://docs.plasmapy.org/en/stable/install.html)
+### [Installing `plasmapy`](https://docs.plasmapy.org/en/stable/install.html)
 
 
 ## Getting Yourself Setup for the Hack Week
