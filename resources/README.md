@@ -6,6 +6,8 @@ materials, demo jupyter notebooks, tutorials, etc.
 
 ## Pre-Event Materials
 
+1. [Installing `git`](#Installing-git)
+
 ### [Installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     
 `git` is a free open-source version control, and is the backbone to
