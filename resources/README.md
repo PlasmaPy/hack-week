@@ -9,8 +9,8 @@ materials, demo jupyter notebooks, tutorials, etc.
 1. [Installing `git`](#installing-git)
 2. [Installing Python](#installing-python)
 3. [Anaconda](#anaconda)
-4. [](#install-your-favorite-code-editor)
-5. [](#installing-plasmapy)
+4. [Install your favorite code editor](#install-your-favorite-code-editor)
+5. [Installing `plasmapy`](#installing-plasmapy)
 
 ### [Installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     
