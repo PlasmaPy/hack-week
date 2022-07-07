@@ -1,4 +1,5 @@
 [Anaconda]: https://www.anaconda.com
+[anaconda-install]: https://docs.anaconda.com/anaconda/install/
 [Anaconda Navigator]: https://docs.anaconda.com/anaconda/navigator/
 [git-installation]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [GitHub]: https://www.github.com
@@ -89,6 +90,25 @@ need to do is
 [create a free personal account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 ## Getting Yourself Setup for the Hack Week
+
+Most on the getting setup resources are listed above in the
+[Pre-Event Materials](#pre-event-materials) section.  However, here is
+check list of the steps you should do.  Most of these steps will be
+covered during days 1 and 2 of the Hack Week, but we highly encourage
+you get started before the event.
+
+ - [ ] [Install `git`][git-installation]
+ - [ ] Create a free personal [GitHub] account
+ - [ ] Decide if you want to used Anaconda or not
+
+    - **Yes**: [Install Anaconda][anaconda-install], which will also install
+      a copy of Python.
+    - **No (and Yes)**: [Install Python][python-installation].  If yes,
+      Anaconda does install a copy of Python, but you can still install
+      other versions of Python to use in different environments.
+
+ - [ ] [Install `plamsapy`][plasmapy-installation]
+ - [ ] [Install your code editor of choice](#install-your-favorite-code-editor)
 
 ## Event Day Resources
 
