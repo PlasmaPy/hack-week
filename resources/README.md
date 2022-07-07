@@ -51,9 +51,9 @@ Development Environment (IDE), i.e. code editor, of choices, so you
 will get exposure to the main IDEs out there.  The three IDEs that will be
 used are:
 
-    * [VSCode](https://code.visualstudio.com/) by Microsoft, 
-    * [PyCharm](https://www.jetbrains.com/pycharm/) by JetBrains, and 
-    * [Spyder](https://www.spyder-ide.org/).
+* [VSCode](https://code.visualstudio.com/) by Microsoft, 
+* [PyCharm](https://www.jetbrains.com/pycharm/) by JetBrains 
+* [Spyder](https://www.spyder-ide.org/)
 
 On Day 1 we will give a brief overview of each IDE.
 
