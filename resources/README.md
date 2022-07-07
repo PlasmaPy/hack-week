@@ -6,7 +6,11 @@ materials, demo jupyter notebooks, tutorials, etc.
 
 ## Pre-Event Materials
 
-1. [Installing `git`](#Installing-git)
+1. [Installing `git`](#installing-git)
+2. [Installing Python](#installing-python)
+3. [Anaconda](#anaconda)
+4. [](#install-your-favorite-code-editor)
+5. [](#installing-plasmapy)
 
 ### [Installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     
@@ -40,13 +44,16 @@ Anaconda also provides the
 is a desktop GUI which allows you to launch applications and manage conda
 packages.
 
-### Install your favorite Integrated Development Environment (IDE), i.e. your favorite code editor.
+### Install your favorite code editor
 
-During the Hack Week the organizers will be using their IDE of choices, so you
+During the Hack Week the organizers will be using their Integrated
+Development Environment (IDE), i.e. code editor, of choices, so you
 will get exposure to the main IDEs out there.  The three IDEs that will be
-used are: [VSCode](https://code.visualstudio.com/) by Microsoft, 
-[PyCharm](https://www.jetbrains.com/pycharm/) by JetBrains, and 
-[Spyder](https://www.spyder-ide.org/).
+used are:
+
+    * [VSCode](https://code.visualstudio.com/) by Microsoft, 
+    * [PyCharm](https://www.jetbrains.com/pycharm/) by JetBrains, and 
+    * [Spyder](https://www.spyder-ide.org/).
 
 On Day 1 we will give a brief overview of each IDE.
 
