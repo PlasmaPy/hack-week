@@ -25,7 +25,7 @@ materials, demo jupyter notebooks, tutorials, etc.
 
 ### [Installing `git`][git-installation]
     
-`git` is a free open-source version control, and is the backbone to
+`git` is a free open-source version control system, and is the backbone to
 collaborative open-source software development.  On Day 2 we will
 cover how to use `git`, both through a command line interface (CLI)
 and built-in graphical user interfaces (GUIs) to select code editors.
@@ -42,7 +42,7 @@ installing Python 3.10.  A Python distribution can be
 is a package distribution hub.  Unlike PyPI, packages listed on
 Anaconda are not restricted to just Python packages.
 
-Anaconda has its own package installer `conda`, similar to PyPI's
+Anaconda has its own package installer called `conda`, similar to PyPI's
 installer `pip`.  Unlike `pip`, `conda` also has built-in functionality
 for managing virtual environments.  For a more detailed write look
 to Anaconda's
