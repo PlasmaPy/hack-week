@@ -1,3 +1,14 @@
+[Anaconda]: https://www.anaconda.com
+[Anaconda Navigator]: https://docs.anaconda.com/anaconda/navigator/
+[git-installation]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[plasmapy-installation]: https://docs.plasmapy.org/en/stable/install.html
+[PyCharm]: https://www.jetbrains.com/pycharm/
+[python-download]: https://www.python.org/downloads/
+[python-installation]: https://docs.plasmapy.org/en/stable/install.html#installing-python
+[Spyder]: https://www.spyder-ide.org/
+[VSCode]: https://code.visualstudio.com/
+
+
 # Plasma Hack Week Resources
 
 This directory contains resources pertinent to the 2022 Plasma Hack Week.
@@ -12,23 +23,22 @@ materials, demo jupyter notebooks, tutorials, etc.
 4. [Install your favorite code editor](#install-your-favorite-code-editor)
 5. [Installing `plasmapy`](#installing-plasmapy)
 
-### [Installing `git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+### [Installing `git`][git-installation]
     
 `git` is a free open-source version control, and is the backbone to
 collaborative open-source software development.  On Day 2 we will
 cover how to use `git`, both through a command line interface (CLI)
 and built-in graphical user interfaces (GUIs) to select code editors.
 
-### [Installing Python](https://docs.plasmapy.org/en/stable/install.html#installing-python)
+### [Installing Python][python-installation]
 
 For the Hack Week we will require Python 3.8+, and recommend
 installing Python 3.10.  A Python distribution can be
-[downloaded](https://www.python.org/downloads/) directly from
-python.org and installed.
+[downloaded][python-download] directly from python.org and installed.
 
-### [Anaconda](https://www.anaconda.com/)
+### [Anaconda]
 
-Anaconda is similar to the Python Package Index (PyPI), in that it
+[Anaconda] is similar to the Python Package Index (PyPI), in that it
 is a package distribution hub.  Unlike PyPI, packages listed on
 Anaconda are not restricted to just Python packages.
 
@@ -39,10 +49,8 @@ to Anaconda's
 ["Understanding Conda and Pip"](https://www.anaconda.com/blog/understanding-conda-and-pip)
 primer.
 
-Anaconda also provides the
-[Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/), which
-is a desktop GUI which allows you to launch applications and manage conda
-packages.
+Anaconda also provides the [Anaconda Navigator], which is a desktop GUI
+which allows you to launch applications and manage conda packages.
 
 ### Install your favorite code editor
 
@@ -51,17 +59,17 @@ Development Environment (IDE), i.e. code editor, of choices, so you
 will get exposure to the main IDEs out there.  The three IDEs that will be
 used are:
 
-* [VSCode](https://code.visualstudio.com/) by Microsoft, 
-* [PyCharm](https://www.jetbrains.com/pycharm/) by JetBrains 
-* [Spyder](https://www.spyder-ide.org/)
+* [VSCode] by Microsoft, 
+* [PyCharm] by JetBrains 
+* [Spyder]
 
 On Day 1 we will give a brief overview of each IDE.
 
-### [Installing `plasmapy`](https://docs.plasmapy.org/en/stable/install.html)
+### [Installing `plasmapy`][plasmapy-installation]
 
 For the Hack Week we will be using `v0.8.1` of `plasmapy`.  This can be
 installed using `pip` or `conda`, depending on your workflow.  For full
-[installation instructions](https://docs.plasmapy.org/en/stable/install.html)
+[installation instructions][plasmapy-installation]
 see PlasmaPy's documentation.
 
 ## Getting Yourself Setup for the Hack Week
