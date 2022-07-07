@@ -15,6 +15,12 @@ This directory contains resources pertinent to the 2022 Plasma Hack Week.
 Added resources include, but are not limit to, pre-event background
 materials, demo jupyter notebooks, tutorials, etc.
 
+### Contents:
+
+1. [Pre-Event Materials](#pre-event-materials)
+2. [Getting Yourself Setup for the Hack Week](#getting-yourself-setup-for-the-hack-week)
+3. [Event Day Resources](#event-day-resources)
+
 ## Pre-Event Materials
 
 1. [Installing `git`](#installing-git)
@@ -74,7 +80,7 @@ see PlasmaPy's documentation.
 
 ## Getting Yourself Setup for the Hack Week
 
-
+## Event Day Resources
 
 [//]: # (## Day 1 Resources)
 
