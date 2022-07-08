@@ -15,7 +15,7 @@
 
 This directory contains resources pertinent to the 2022 Plasma Hack Week.
 Added resources include, but are not limit to, pre-event background
-materials, demo jupyter notebooks, tutorials, etc.
+materials, demo Jupyter notebooks, tutorials, etc.
 
 ### Contents:
 
