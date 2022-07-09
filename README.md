@@ -31,6 +31,4 @@ typing `import plasmapy`.
 * Package Documentation (https://docs.hack.plasmapy.org)
 
 * PlasmaPy website (https://www.plasmapy.org)
-* PlasmaPy documenation (https://docs.plasmapy.org)
-
-some random line
+* PlasmaPy documentation (https://docs.plasmapy.org)
