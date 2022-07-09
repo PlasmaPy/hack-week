@@ -18,7 +18,7 @@
 [Discord]: https://discord.gg/HdsZkp9M35
 [resources]: ./resources
 
-This repository is used to house [resources] for th 2022 Plasma Hack Week
+This repository is used to house [resources] for the 2022 Plasma Hack Week
 and be home for the `hack` package that is developed by the Hack Week
 participants.
 
@@ -52,9 +52,9 @@ to event tutorials.  Please refer to the resources
 The primary goal of the 2022 Plasma Hack Week is to **train our scientists
 so open-source software can thrive throughout the Plasma Community**.  To
 do this, the Hack Week and participants will focus on developing a `hack`
-package.  The center of the package will focus on developing a plasma
+package.  The central focus of the package will be on developing a plasma
 formulary, and additional plasma features will be driven by the
-participants interests.  While developing the `hack` package participants
+participants' interests.  While developing the `hack` package participants
 will learn about version control and `git`; the mechanics of GitHub;
 packaging code to be used by a wider audience; and how to collaboratively
 develop code.
