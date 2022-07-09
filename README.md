@@ -11,16 +11,34 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 
+[2022-website]: https://hack.plasmpy.org/2022/about
+[2022-schedule]: https://hack.plasmpy.org/2022/schedule
+[2022-registration]: https://hack.plasmpy.org/2022/about
+[2022-zoom]: https://us06web.zoom.us/meeting/register/tZMrd-6tqD0pEt21wrVM9DfQK91S1FgqqO_D
+[Discord]: https://discord.gg/HdsZkp9M35
 [resources]: ./resources
 
 This repository is used to house [resources] for th 2022 Plasma Hack Week
 and be home for the `hack` package that is developed by the Hack Week
 participants.
 
-The [2022 Plasma Hack Week](https://hack.plasmapy.org/2022/about) runs from
+The [2022 Plasma Hack Week][2022-website] runs from
 July 11 - 15, 2022.  The schedule for the event can be found
-[here](https://hack.plasmapy.org/2022/schedule), and you can register
-[here](https://hack.plasmapy.org/2022/registration).
+[here][2022-schedule], and you can register
+[here][2022-registration].
+
+## Participating in the Event
+
+The event will be hosted with [Zoom](https://zoom.us/).  Starting
+Monday, July 11th, each day of the event will begin at 11:00 am ET
+(8:00 am PT, 15:00 UTC).  The following link allows you to register for
+the zoom meeting, [Hack Week Zoom][2022-zoom].  After filling out the
+registration you will be emailed a link that gives access to every day
+of the Hack Week.  This link will be unique to you, so please don't
+share it with anyone.  However, feel free to share the invitation link above.
+
+If you have any questions, then please feel free to email us at
+hack@plasmapy.org or post to our [Discord] channel.
 
 ## Resources
 
@@ -53,9 +71,10 @@ typing `import plasmapy`.
 ## Useful Links
 
 * Hack Week website (https://hack.plasmapy.org)
-* 2022 Hack Week [About](https://hack.plasmapy.org/2022/about/)
-* [Discord channel](https://discord.gg/HdsZkp9M35) 
+* 2022 Hack Week [About][2022-website]
+* [Discord] channel
 * Package Documentation (https://docs.hack.plasmapy.org)
+* [Hack Week Zoom access][2022-zoom]
 
 * PlasmaPy website (https://www.plasmapy.org)
 * PlasmaPy documentation (https://docs.plasmapy.org)
