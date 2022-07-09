@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rocco8773/hack-week/HEAD)
+
 This repository is used to create a
 [binder](https://binder.readthedocs.io/en/latest/)
 environment with open source packages that are likely to be used
