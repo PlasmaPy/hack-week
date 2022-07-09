@@ -7,7 +7,7 @@
 [![Documentation Status](https://readthedocs.org/projects/hack-week/badge/?version=latest)](https://docs.hack.plasmapy.org/en/latest/?badge=latest)
 
 [![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
-[![astropy](http://img.shields.io/badge/powered%20by-PlasmaPy-ff2929.svg?style=flat)](http://www.plasmapy.org/)
+[![plasmapy](http://img.shields.io/badge/powered%20by-PlasmaPy-ff2929.svg?style=flat)](http://www.plasmapy.org/)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 
