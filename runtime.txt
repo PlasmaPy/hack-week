@@ -1,9 +1,1 @@
 python-3.10
-
-# This comment has to follow the python definition, otherwise binder
-# will not recognize it.
-#
-# This is to set the Binder Python runtime version and still define
-# dependencies in requirements.txt
-#
-# https://mybinder.readthedocs.io/en/latest/howto/languages.html#specifying-a-version-of-python
