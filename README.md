@@ -2,17 +2,44 @@
 
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](./LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html)
+[![PyPI version](https://img.shields.io/pypi/pyversions/plasmapy?style=flat&logo=python)](https://img.shields.io/pypi/pyversions/plasmapy?style=plastic)
 
+[![Documentation Status](https://readthedocs.org/projects/hack-week/badge/?version=latest)](https://docs.hack.plasmapy.org/en/latest/?badge=latest)
+
+[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
+[![astropy](http://img.shields.io/badge/powered%20by-PlasmaPy-ff2929.svg?style=flat)](http://www.plasmapy.org/)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 
-This repository is used to create a
-[binder](https://binder.readthedocs.io/en/latest/)
-environment with open source packages that are likely to be used
-during [Plasma Hack Week](https://hack.plasmapy.org/) from
-July 11 – July 15, 2022.  Click on the above link to access the
-environment.
+[resources]: ./resources
 
+This repository is used to house [resources] for th 2022 Plasma Hack Week
+and be home for the `hack` package that is developed by the Hack Week
+participants.
+
+The [2022 Plasma Hack Week](https://hack.plasmapy.org/2022/about) runs from
+July 11 - 15, 2022.  The schedule for the event can be found
+[here](https://hack.plasmapy.org/2022/schedule), and you can register
+[here](https://hack.plasmapy.org/2022/registration).
+
+## Resources
+
+Event resources can be found in the [resources] subdirectory.  This directory
+will contain materials ranging from getting setup background materials
+to event tutorials.  Please refer to the resources
+[README](./resources/README.md) for more details.
+
+## The `hack` Package
+
+The primary goal of the 2022 Plasma Hack Week is to **train our scientists
+so open-source software can thrive throughout the Plasma Community**.  To
+do this, the Hack Week and participants will focus on developing a `hack`
+package.  The center of the package will focus on developing a plasma
+formulary, and additional plasma features will be driven by the
+participants interests.  While developing the `hack` package participants
+will learn about version control and `git`; the mechanics of GitHub;
+packaging code to be used by a wider audience; and how to collaboratively
+develop code.
 
 ## Using binder
 
