@@ -1,5 +1,1 @@
-# This is to set the Binder Python runtime version and still define
-# dependencies in requirements.txt
-#
-# https://mybinder.readthedocs.io/en/latest/howto/languages.html#specifying-a-version-of-python
 python-3.10
