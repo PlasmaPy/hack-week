@@ -72,9 +72,11 @@ typing `import plasmapy`.
 
 * Hack Week website (https://hack.plasmapy.org)
 * 2022 Hack Week [About][2022-website]
+* 2022 Hack Week [Resouces][resources]
 * [Discord] channel
 * Package Documentation (https://docs.hack.plasmapy.org)
 * [Hack Week Zoom access][2022-zoom]
+
 
 * PlasmaPy website (https://www.plasmapy.org)
 * PlasmaPy documentation (https://docs.plasmapy.org)
