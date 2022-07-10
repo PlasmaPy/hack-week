@@ -2,19 +2,18 @@
 tags: Hack Week, IDE, 2022
 ---
 
-https://hackmd.io/@rocco8773/HJlwJSShO  2021 git/GitHub Demo Lecture notes
-
 # IDE: VSCode
 
 [![hackmd-github-sync-badge](https://hackmd.io/NEXXSXEeQaWkkxnznsmdLA/badge)](https://hackmd.io/NEXXSXEeQaWkkxnznsmdLA)
 
-# Installing and Setup
+## Installing and Setup
 
 [VSCode Download Page](https://code.visualstudio.com/download)
 
 [Get started using Visual Studio Code](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 
-## Install Extensions
+### Install Extensions
+
 - Remote - SSH
 - Remote - SSH: Editing Configuration Files
 - Remote - WSL
@@ -29,8 +28,8 @@ https://hackmd.io/@rocco8773/HJlwJSShO  2021 git/GitHub Demo Lecture notes
 - Pylance
 
 
-# Basic Overview
- 
+## Basic Overview
+
 [Basic Overview](https://code.visualstudio.com/docs)
 
 [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
@@ -40,11 +39,12 @@ https://hackmd.io/@rocco8773/HJlwJSShO  2021 git/GitHub Demo Lecture notes
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
 
-# Python in Visual Studio Code
+## Python in Visual Studio Code
 
 [Python in VSCode](https://code.visualstudio.com/docs/languages/python)
 
-## Covers
+### Covers
+
 - Installing Python and the Python extension
 - Running Python code
 - Autocomplete and IntelliSense
@@ -57,11 +57,12 @@ https://hackmd.io/@rocco8773/HJlwJSShO  2021 git/GitHub Demo Lecture notes
 - Configuration
 - Other popular Python extensions
 
-# Working with GitHub in VS Code
+## Working with GitHub in VS Code
 
 [Github in VSCode](https://code.visualstudio.com/docs/editor/github)
 
-## Covers
+### Covers
+
 - Installing
 - Getting started with GitHub Pull Requests and Issues
 - Setting up a repository
