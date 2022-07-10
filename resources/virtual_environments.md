@@ -1,4 +1,4 @@
-# Plasma Hack Week 2021: Virtual Environments
+# Plasma Hack Week 2022: Virtual Environments
 
 ## What is a Virtual Environment?
 
