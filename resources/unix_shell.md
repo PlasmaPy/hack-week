@@ -24,6 +24,7 @@ Here are instructions for opening a terminal:
 Here are a few resources on using `bash`:
 
 - [16 Must-Know Bash Commands](https://towardsdatascience.com/16-must-know-bash-commands-for-data-scientists-d8263e990e0e)
+- [bash scripting tutorial](https://linuxconfig.org/bash-scripting-tutorial)
 
 There are a few different ways to get help about a command while using a
 `bash` shell, though these might differ between computers. Two of the
