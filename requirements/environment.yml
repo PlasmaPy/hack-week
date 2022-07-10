@@ -2,7 +2,6 @@ name: plasmapy
 
 dependencies:
 - python=3.10
-- numpy=1.21
 - pip
 - pip:
   - -r ../requirements.txt
