@@ -2,6 +2,9 @@
 tags: Hack Week, IDE, 2022
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/-MvWnXf2S8OrKhreH1Wzgg/badge)](https://hackmd.io/-MvWnXf2S8OrKhreH1Wzgg)
+
+
 [PyCharm]: https://www.jetbrains.com/pycharm/
 
 # 2022 Hack Week: IDE PyCharm
@@ -18,7 +21,7 @@ PyCharm provides several versions.  There is a free open-source **Community** ve
 
 In additional to the Community and Professional versions, JetBrains provides an **Educational** version.  This gives students and teachers free access to many of the Professional features.  One can request an educational license with the following link: https://www.jetbrains.com/community/education/.
 
-## Ueeful Tutorials and Demos
+## Useful Tutorials and Demos
 
 * PyCharm's [YouTube Tour](https://youtu.be/BPC-bGdBSM8)
 * JetBrain's PyCharm [YouTube playlist](https://youtube.com/playlist?list=PLQ176FUIyIUbDwdvWZNuB7FrCc6hHregy)
