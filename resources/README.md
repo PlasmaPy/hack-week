@@ -115,6 +115,7 @@ you get started before the event.
 ### Day 1 Resources
 
 * [Getting Python][python-installation]
+  * [Python, PyPI, and `pip`](./2022HW_python_pypi_pip.md)
 * [Getting Anaconda][anaconda-install]
 * Terminals
   * [On Unix & MacOS](./unix_shell.md)
