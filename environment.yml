@@ -3,5 +3,4 @@ name: plasmapy
 dependencies:
 - python=3.10
 - pip
-  - -r requirements.txt
-  - jupyter
+  - plasmapy=0.8.1
