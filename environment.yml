@@ -1,7 +1,5 @@
 name: plasmapy
 
 dependencies:
-- python=3.10
-- pip
-- pip:
-  - plasmapy
+- python=3.10.5
+- plasmapy=0.8.1
