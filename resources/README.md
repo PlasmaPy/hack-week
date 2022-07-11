@@ -119,7 +119,7 @@ you get started before the event.
 * [Getting Anaconda][anaconda-install]
 * Terminals
   * [On Unix & MacOS](./unix_shell.md)
-  * [On Windows]()
+  * [On Windows](./terminals_windows.md)
 * Interactive Development Environments
   * [Overview Slides](./2022HW_IDE_Overview.pdf)
   * [Spyder Overview & Walk-through](./ide_spyder.md)
