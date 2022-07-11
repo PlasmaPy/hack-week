@@ -116,7 +116,9 @@ you get started before the event.
 
 * [Getting Python][python-installation]
 * [Getting Anaconda][anaconda-install]
-* [Terminals](./unix_shell.md)
+* Terminals
+  * [On Unix & MacOS](./unix_shell.md)
+  * [On Windows]()
 * Interactive Development Environments
   * [Overview Slides](./2022HW_IDE_Overview.pdf)
   * [Spyder Overview & Walk-through](./ide_spyder.md)
