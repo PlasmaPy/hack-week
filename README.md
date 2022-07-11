@@ -11,9 +11,9 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD)
 
-[2022-website]: https://hack.plasmpy.org/2022/about
-[2022-schedule]: https://hack.plasmpy.org/2022/schedule
-[2022-registration]: https://hack.plasmpy.org/2022/about
+[2022-website]: https://hack.plasmapy.org/2022/about
+[2022-schedule]: https://hack.plasmapy.org/2022/schedule
+[2022-registration]: https://hack.plasmapy.org/2022/about
 [2022-zoom]: https://us06web.zoom.us/meeting/register/tZMrd-6tqD0pEt21wrVM9DfQK91S1FgqqO_D
 [Discord]: https://discord.gg/HdsZkp9M35
 [resources]: ./resources
