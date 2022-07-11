@@ -112,7 +112,19 @@ you get started before the event.
 
 ## Event Day Resources
 
-[//]: # (## Day 1 Resources)
+### Day 1 Resources
+
+* [Getting Python][python-installation]
+* [Getting Anaconda][anaconda-install]
+* Terminals
+  * [On Unix & MacOS](./unix_shell.md)
+  * [On Windows]()
+* Interactive Development Environments
+  * [Overview Slides](./2022HW_IDE_Overview.pdf)
+  * [Spyder Overview & Walk-through](./ide_spyder.md)
+  * [VSCode Overview & Walk-through](./ide_vscode.md)
+  * [PyCharm Overview & Walk-through](./ide_pycharm.md)
+* [Virtual Environments](./virtual_environments.md)
 
 [//]: # (## Day 2 Resources)
 
