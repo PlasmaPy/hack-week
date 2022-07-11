@@ -4,6 +4,7 @@
 
 * The easiest to get Python is to download the installer directly from
   Python's website, https://www.python.org/downloads/, and install.
+* Python can also be installed with [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)
 * Versions and end-of-life
     * Python 2.7 reached its end-of-life back in 2020.
     * Python schedules a version's end-of-life to be 5 years from its
@@ -14,16 +15,15 @@
 
 ## What is PyPi?
 
-* https://pypi.org/
-* Python Package Index (PyPI) is the official third-party software
-  repository for Python.
+* The [Python Package Index (PyPI)](https://pypi.org/) is the official
+  third-party software repository for Python.
 * This is the repository `pip` pulls from when installing packages.
 
 ## What is `pip`?
 
 * Package Installer for Python (`pip`)
 * `pip` is the de facto package-management system for Python.
-* It...
+* `pip`
     * is written in Python
     * is used to install and manage your 3rd party packages
     * pulls packages from PyPI
