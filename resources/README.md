@@ -127,7 +127,14 @@ you get started before the event.
   * [PyCharm Overview & Walk-through](./ide_pycharm.md)
 * [Virtual Environments](./virtual_environments.md)
 
-[//]: # (## Day 2 Resources)
+### Day 2 Resources
+
+* [Getting `git`][git-installation]
+* [GitHub Documentation](https://docs.github.com/en)
+* [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world)
+* Dive into `plasmapy` notebooks
+  * [Blank Notebook](./2022HW_dive_into_plasmapy.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD?labpath=resources%2F2022HW_dive_into_plasmapy.ipynb)
+  * [Completed Notebook](./2022HW_dive_into_plasmapy_completed.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD?labpath=resources%2F2022HW_dive_into_plasmapy_completed.ipynb)
 
 [//]: # (## Day 3 Resources)
 
