@@ -7,4 +7,5 @@ def gyroradius(
     B: u.T,
     Vperp: u.m / u.s = np.nan * u.m / u.s,
 ) -> u.m:
+    '''calculate gyro radius'''
     return mass*Vperp/(B*e)
