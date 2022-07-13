@@ -112,9 +112,30 @@ you get started before the event.
 
 ## Event Day Resources
 
-[//]: # (## Day 1 Resources)
+### Day 1 Resources
 
-[//]: # (## Day 2 Resources)
+* [Getting Python][python-installation]
+  * [Python, PyPI, and `pip`](./2022HW_python_pypi_pip.md)
+* [Getting Anaconda][anaconda-install]
+* Terminals
+  * [On Unix & MacOS](./unix_shell.md)
+  * [On Windows](./terminals_windows.md)
+* Interactive Development Environments
+  * [Overview Slides](./2022HW_IDE_Overview.pdf)
+  * [Spyder Overview & Walk-through](./ide_spyder.md)
+  * [VSCode Overview & Walk-through](./ide_vscode.md)
+  * [PyCharm Overview & Walk-through](./ide_pycharm.md)
+* [Virtual Environments](./virtual_environments.md)
+
+### Day 2 Resources
+
+* [Getting `git`][git-installation]
+* [GitHub Documentation](https://docs.github.com/en)
+* [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world)
+* [`git` & GitHub Overview Slides](./2022HW_git_and_GitHub_overview_slides.pdf)
+* Dive into `plasmapy` notebooks
+  * [Blank Notebook](./2022HW_dive_into_plasmapy.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD?labpath=resources%2F2022HW_dive_into_plasmapy.ipynb)
+  * [Completed Notebook](./2022HW_dive_into_plasmapy_completed.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlasmaPy/hack-week/HEAD?labpath=resources%2F2022HW_dive_into_plasmapy_completed.ipynb)
 
 [//]: # (## Day 3 Resources)
 
