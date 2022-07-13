@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul 13 14:17:50 2022
+
+@author: aaboutal
+"""
+from astropy import units as u
+from astropy.constants.si import m_p, m_e
+B = 0.014*u.T
+n = 5e19*u.m**-3
+rho = n*(m_p+m_e)
+ion = 'p'
+Alfven_speed(B, n, ion=ion)
