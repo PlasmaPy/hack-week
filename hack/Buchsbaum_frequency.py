@@ -2,10 +2,21 @@ import numpy as np
 import astropy.units as u
 from plasmapy.formulary.frequencies import gyrofrequency, plasma_frequency
 from plasmapy.particles import Particle
+from plasmapy.utils.decorators import (
+    angular_freq_to_hz,
+    validate_quantities,
+)
 
-
-def buchsbaum_frequency(B: Unit('T'), n1: u.m**-3, n2: u.m**-3, particle1: Particle, particle2: Particle, Z1=None,
+@validate_quantities(
+    validations_on_return={
+        "units": [u.rad / u.s, u.Hz],
+        "equivalencies": [(u.cy / u.s, u.Hz)],
+    }
+)
+@angular_freq_to_hz
+def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, particle2: Particle, Z1=None,
                         Z2=None, to_hz=False) -> u.rad / u.s:
+
     r"""
     Calculate the Buchsbaum frequency in units of radians per second.
     **Aliases:** `omega_bb_`, `omega_ii_`, `omega_bi_`
@@ -36,35 +47,50 @@ def buchsbaum_frequency(B: Unit('T'), n1: u.m**-3, n2: u.m**-3, particle1: Parti
     -------
     omega_BB : `~astropy.units.Quantity`
         The Buchsbaum frequency of the plasma in units of radians per second.
-
+        Setting keyword ``to_hz=True`` will apply the factor of :math:`1/2π`
+        and yield a value in Hz.
+    Raises
+    ------
+    `TypeError`
+        If the magnetic field is not a `~astropy.units.Quantity` or
+        ``particle`` is not of an appropriate type.
+    `ValueError`
+        If the magnetic field contains invalid values or particle cannot
+        be used to identify a particle or isotope.
+    Warns
+    -----
+    : `~astropy.units.UnitsWarning`
+        If units are not provided, SI units are assumed.
         Notes
         -----
 
     In a magnetized plasma, the presence of two ion species allows the perpendicular
     component of the cold-plasma dielectric coefficient
     math:: \epsilon_{\perp} to vanish at an angular frequency referred to as the
-    Buchsbaum frequency[1], also called the bi-ion frequency or ion-ion hybrid frequency[2].
+    Buchsbaum frequency:cite:p:`buchsbaum:1960`., also called the bi-ion frequency or ion-ion hybrid frequency:cite:p:`vincena:2013`.
     This frequency can be defined as:
-    math::
+    .. math::
     \omega_{BB}^2 \equiv \frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}
 
-    [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
-    [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
-    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
+#   [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
+#   [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
+#    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
     """
 
     omega_c1 = gyrofrequency(B, particle1, signed=False, Z=Z1)
     omega_c2 = gyrofrequency(B, particle2, signed=False, Z=Z2)
-    omega_p1 = plasma_frequency(n1, particle1, z_mean=None)
-    omega_p2 = plasma_frequency(n2, particle2, z_mean=None)
+    omega_p1 = plasma_frequency(n1, particle1, z_mean=Z1)
+    omega_p2 = plasma_frequency(n2, particle2, z_mean=Z2)
 
     return np.sqrt((omega_p1**2 * omega_c2**2 + omega_p2**2 * omega_c1**2) / ( omega_p1**2 + omega_p2**2))
 
 omega_bb_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
+
 omega_ii_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
+
 
 omega_bi_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
