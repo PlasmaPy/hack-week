@@ -14,8 +14,8 @@ from plasmapy.utils.decorators import (
     }
 )
 @angular_freq_to_hz
-def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, particle2: Particle, Z1=None,
-                        Z2=None, to_hz=False) -> u.rad / u.s:
+def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, particle2: Particle,
+                        Z1=None, Z2=None) -> u.rad / u.s:
 
     r"""
     Calculate the Buchsbaum frequency in units of radians per second.
@@ -70,8 +70,9 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
     Buchsbaum frequency:cite:p:`buchsbaum:1960`., also called the bi-ion frequency or ion-ion hybrid frequency:cite:p:`vincena:2013`.
     This frequency can be defined as:
     .. math::
-    \omega_{BB}^2 \equiv \frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}
+    \omega_{BB} \equiv \sqrt{\frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}}
 
+#   These are the references, but do they need to go into a global bibtex-type document?
 #   [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
 #   [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
 #    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
@@ -87,10 +88,8 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
 omega_bb_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
-
 omega_ii_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
-
 
 omega_bi_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
