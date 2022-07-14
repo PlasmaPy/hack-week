@@ -1,9 +1,11 @@
 import numpy as np
 import astropy.units as u
-from plasmapy.particles import *
+from plasmapy.particles import Particle, particle_input
+from plasmapy.utils.decorators import validate_quantities
 
-
-def Zav_TF(particle: Particle, rho: u.g/u.cm , T: u.eV=0) -> u.dimensionless_unscaled:
+@validate_quantities(density={"can_be_negative": False}, equivalencies=u.temperature_energy())
+@particle_input
+def Zav_TF(particle: Particle, rho: u.g/u.cm**-3 , T: u.eV=0) -> u.dimensionless_unscaled:
     """
     Finite Temperature Thomas Fermi Charge State using 
     R.M. More (1985), "Pressure Ionization, Resonances, and the
@@ -13,8 +15,8 @@ def Zav_TF(particle: Particle, rho: u.g/u.cm , T: u.eV=0) -> u.dimensionless_uns
     This is a light-weight fit of the Thomas-Fermi model, not the model itself.
     """
 
-    Z = atomic_number(particle)
-    A = mass_number(particle)
+    Z = particle.atomic_number
+    A = particle.mass_number
 
     alpha = 14.3139
     beta = 0.6624
@@ -28,8 +30,8 @@ def Zav_TF(particle: Particle, rho: u.g/u.cm , T: u.eV=0) -> u.dimensionless_uns
     c1 = -0.366667
     c2 = 0.983333
 
-    rho1 = rho / A * Z
-    T1 = T / Z ** (4. / 3.)
+    rho1 = rho.value / A * Z
+    T1 = T.value / Z ** (4. / 3.)
     Tf = T1 / (1 + T1)
     Ac = a1 * T1 ** a2 + a3 * T1 ** a4
     B = -np.exp(b0 + b1 * Tf + b2 * Tf ** 7)
