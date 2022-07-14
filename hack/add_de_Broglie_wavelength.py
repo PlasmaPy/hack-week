@@ -20,3 +20,4 @@ def de_Broglie_wavelength(T_e: u.K) -> u.m:
     constants = np.sqrt(h**2 / (2 * np.pi * m_e * k_B))
     return constants * 1/np.sqrt(T_e)
 
+lambda_e = de_Broglie_wavelength
