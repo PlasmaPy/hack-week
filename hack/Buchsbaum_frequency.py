@@ -96,12 +96,6 @@ def buchsbaum_frequency(
     omega_p1 = plasma_frequency(n1, particle1, z_mean=Z1)
     omega_p2 = plasma_frequency(n2, particle2, z_mean=Z2)
 
-    #   These are the references, but do they need to go into a global bibtex-type document?
-    #   [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
-    #   [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
-    #    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
-
-
     return np.sqrt((omega_p1**2 * omega_c2**2 + omega_p2**2 * omega_c1**2) / ( omega_p1**2 + omega_p2**2))
 
 
