@@ -7,6 +7,8 @@ from plasmapy.utils.decorators import (
     validate_quantities,
 )
 
+__all__ += __aliases__
+
 @validate_quantities(
     validations_on_return={
         "units": [u.rad / u.s, u.Hz],
