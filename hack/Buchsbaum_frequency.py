@@ -60,7 +60,7 @@ def buchsbaum_frequency(
         The Buchsbaum frequency of the plasma in units of radians per second.
         Setting keyword ``to_hz=True`` will apply the factor of :math:`1/2π`
         and yield a value in Hz.
-    
+
     Raises
     ------
     `TypeError`
