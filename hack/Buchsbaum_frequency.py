@@ -103,10 +103,10 @@ def buchsbaum_frequency(
 
 
 w_bb_ = buchsbaum_frequency
-"""Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
+"""Alias to `~hack.Buchsbaum_frequency.buchsbaum_frequency`."""
 
 w_ii_ = buchsbaum_frequency
-"""Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
+"""Alias to `~hack.Buchsbaum_frequency.buchsbaum_frequency`."""
 
 w_bi_ = buchsbaum_frequency
-"""Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
+"""Alias to `~hack.Buchsbaum_frequency.buchsbaum_frequency`."""
