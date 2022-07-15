@@ -88,11 +88,11 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
 
     return np.sqrt((omega_p1**2 * omega_c2**2 + omega_p2**2 * omega_c1**2) / ( omega_p1**2 + omega_p2**2))
 
-omega_bb_ = buchsbaum_frequency
+o_bb_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
-omega_ii_ = buchsbaum_frequency
+o_ii_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
-omega_bi_ = buchsbaum_frequency
+o_bi_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
