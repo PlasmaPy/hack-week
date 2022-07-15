@@ -61,8 +61,8 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
     -----
     : `~astropy.units.UnitsWarning`
         If units are not provided, SI units are assumed.
-        Notes
-        -----
+    Notes
+    -----
 
     In a magnetized plasma, the presence of two ion species allows the perpendicular
     component of the cold-plasma dielectric coefficient
