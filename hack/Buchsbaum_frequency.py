@@ -10,6 +10,7 @@ __all__ = ["buchsbaum_frequency"]
 __aliases__ = ["w_bb_", "w_ii_", "w_bi_"]
 __all__ += __aliases__
 
+
 @validate_quantities(
     validations_on_return={
         "units": [u.rad / u.s, u.Hz],
