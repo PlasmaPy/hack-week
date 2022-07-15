@@ -1,3 +1,6 @@
+__all__ = ["buchsbaum_frequency"]
+__aliases__ = ["w_bb_", "w_ii_", "w_bi_"]
+
 import numpy as np
 import astropy.units as u
 from plasmapy.formulary.frequencies import gyrofrequency, plasma_frequency
