@@ -63,6 +63,7 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
     `ValueError`
         If the magnetic field contains invalid values or particle cannot
         be used to identify a particle or isotope.
+
     Warns
     -----
     : `~astropy.units.UnitsWarning`
