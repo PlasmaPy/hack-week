@@ -87,7 +87,8 @@ def buchsbaum_frequency(
     :cite:p:`vincena:2013`.  This frequency can be defined as:
 
     .. math::
-    \omega_{BB} \equiv \sqrt{\frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}}
+        \omega_{BB} \equiv \sqrt{\frac{\omega_{p1}^{2}\omega_{c2}^{2}
+            + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}}
 
 
     """
