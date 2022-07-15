@@ -76,19 +76,23 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
     math:: \epsilon_{\perp} to vanish at an angular frequency referred to as the
     Buchsbaum frequency:cite:p:`buchsbaum:1960`., also called the bi-ion frequency or ion-ion hybrid frequency:cite:p:`vincena:2013`.
     This frequency can be defined as:
+
     .. math::
     \omega_{BB} \equiv \sqrt{\frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}}
 
-#   These are the references, but do they need to go into a global bibtex-type document?
-#   [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
-#   [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
-#    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
+
     """
 
     omega_c1 = gyrofrequency(B, particle1, signed=False, Z=Z1)
     omega_c2 = gyrofrequency(B, particle2, signed=False, Z=Z2)
     omega_p1 = plasma_frequency(n1, particle1, z_mean=Z1)
     omega_p2 = plasma_frequency(n2, particle2, z_mean=Z2)
+
+    #   These are the references, but do they need to go into a global bibtex-type document?
+    #   [1] S. J. Buchsbaum, Phys. Fluids 3, 418 (1960); Resonance in a Plasma with Two Ion Species; https://doi.org/10.1063/1.1706052
+    #   [2] S. T. Vincena, W. A. Farmer, J. E. Maggs, and G. J. Morales, Phys. Plasmas, 20, 012111 (2013);
+    #    Investigation of an ion-ion hybrid Alfvén wave resonator https://doi.org/10.1063/1.4775777
+
 
     return np.sqrt((omega_p1**2 * omega_c2**2 + omega_p2**2 * omega_c1**2) / ( omega_p1**2 + omega_p2**2))
 
