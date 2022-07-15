@@ -6,7 +6,8 @@ from plasmapy.utils.decorators import (
     angular_freq_to_hz,
     validate_quantities,
 )
-
+__all__ = ["buchsbaum_frequency"]
+__aliases__ = ["o_bb_", "o_ii_", "o_bi_"]
 __all__ += __aliases__
 
 @validate_quantities(
