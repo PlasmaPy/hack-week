@@ -79,11 +79,12 @@ def buchsbaum_frequency(
 
     Notes
     -----
-    In a magnetized plasma, the presence of two ion species allows the perpendicular
-    component of the cold-plasma dielectric coefficient
-    math:: \epsilon_{\perp} to vanish at an angular frequency referred to as the
-    Buchsbaum frequency:cite:p:`buchsbaum:1960`., also called the bi-ion frequency or ion-ion hybrid frequency:cite:p:`vincena:2013`.
-    This frequency can be defined as:
+    In a magnetized plasma, the presence of two ion species allows the
+    perpendicular component of the cold-plasma dielectric coefficient
+    :math:`\epsilon_{\perp}` to vanish at an angular frequency referred
+    to as the Buchsbaum frequency :cite:p:`buchsbaum:1960`, also called
+    the bi-ion frequency or ion-ion hybrid frequency
+    :cite:p:`vincena:2013`.  This frequency can be defined as:
 
     .. math::
     \omega_{BB} \equiv \sqrt{\frac{\omega_{p1}^{2}\omega_{c2}^{2} + \omega_{p2}^{2}\omega_{c1}^{2}}{\omega_{p2}^{2}+\omega_{p2}^{2}}}
