@@ -7,7 +7,7 @@ from plasmapy.utils.decorators import (
     validate_quantities,
 )
 __all__ = ["buchsbaum_frequency"]
-__aliases__ = ["o_bb_", "o_ii_", "o_bi_"]
+__aliases__ = ["w_bb_", "w_ii_", "w_bi_"]
 __all__ += __aliases__
 
 @validate_quantities(
@@ -88,11 +88,11 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
 
     return np.sqrt((omega_p1**2 * omega_c2**2 + omega_p2**2 * omega_c1**2) / ( omega_p1**2 + omega_p2**2))
 
-o_bb_ = buchsbaum_frequency
+w_bb_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
-o_ii_ = buchsbaum_frequency
+w_ii_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
 
-o_bi_ = buchsbaum_frequency
+w_bi_ = buchsbaum_frequency
 """Alias to `~plasmapy.formulary.frequencies.buchsbaum_frequency`."""
