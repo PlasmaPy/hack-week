@@ -17,9 +17,15 @@ __all__ += __aliases__
     }
 )
 @angular_freq_to_hz
-def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, particle2: Particle,
-                        Z1=None, Z2=None) -> u.rad / u.s:
-
+def buchsbaum_frequency(
+    B: u.T,
+    n1: u.m**-3,
+    n2: u.m**-3,
+    particle1: Particle,
+    particle2: Particle,
+    Z1=None,
+    Z2=None,
+) -> u.rad / u.s:
     r"""
     Calculate the Buchsbaum frequency in units of radians per second.
 
