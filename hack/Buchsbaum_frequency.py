@@ -23,7 +23,7 @@ def buchsbaum_frequency(B: u.T, n1: u.m**-3, n2: u.m**-3, particle1: Particle, p
     r"""
     Calculate the Buchsbaum frequency in units of radians per second.
 
-   **Aliases:** `w_bb_`, `w_ii_`, `w_bi_`
+    **Aliases:** `w_bb_`, `w_ii_`, `w_bi_`
 
     Parameters
     ----------
